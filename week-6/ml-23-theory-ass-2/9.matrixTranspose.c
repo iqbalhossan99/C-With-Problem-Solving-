@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int rows=3, cols=3;
+    int rows, cols;
     scanf("%d%d", &rows, &cols);
     int mainMatrix[rows][cols];
     int transpose[cols][rows];
